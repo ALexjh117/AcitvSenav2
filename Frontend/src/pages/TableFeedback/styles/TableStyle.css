@@ -1,0 +1,139 @@
+.tabla-title{
+    text-align: center;
+    font-weight: 400;
+    padding: 2rem 0;
+    margin-top: 50px ;
+}
+
+.scroll-table{
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+
+.contenedor-tabla{
+    text-align: left;
+    width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 2em;
+}
+
+.tr{
+  display: table-row;
+}
+
+.contenedor-tabla .thead .tr .th,
+.contenedor-tabla .tbody .tr .td{
+    border: 1px solid blue;
+    padding: 12px;
+    font-size: 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.contenedor-tabla .thead .tr .th{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #33a2ff;
+}
+
+.contenedor-tabla .tbody .tr .td{
+  font-size: 1rem;
+  border: 1px solid blue;
+}
+
+
+.contenedor-tabla .tbody .tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+.contenedor-tabla .tbody .tr:nth-child(even){
+    background-color:  white;
+}
+
+
+
+
+
+.contenedor-tabla .tbody .tr .td:hover{
+background-color: #33a2ff;
+color: #03071e;
+box-shadow: rgb(102, 101, 101) -1px 1px,rgb(102, 101, 101) -2px 2px, rgb(102, 101, 101) -3px 3px, rgb(102, 101, 101) -4px 4px;
+cursor: pointer;
+}
+
+.perfil-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .user-cell {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 10px;
+    padding: 10px; 
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; REVISAR ESTAS PROPIEDADES*/
+
+  }
+
+.texto-comentario{
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.input-texto {
+   border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 25%;
+    font-size: 1rem;
+    margin-bottom: 11px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-texto:focus {
+  outline: none;
+  box-shadow: 0 0 5px #33a2ff;
+}
+
+.button-submit {
+  background-color: #33a2ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 11px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-submit:hover {
+
+  background-color: rgb(56, 187, 56);
+  transform: scale(1.05);
+}
+
+  .center-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+
+  
+ 
+  

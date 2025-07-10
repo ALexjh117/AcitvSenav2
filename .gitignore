@@ -1,0 +1,11 @@
+# Ignorar node_modules en raíz y en Frontend
+node_modules/
+Frontend/node_modules/
+
+# Ignorar caché de Vite
+.vite/
+Frontend/node_modules/.vite/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db

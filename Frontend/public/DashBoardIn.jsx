@@ -20,6 +20,7 @@ import UserViewIn from "../src/pages/UserView/UserViewIn";
 import ConfigViewIn from "../src/pages/ConfigView/ConfigViewIn";
 import Alquiler from "../src/pages/Alquiler/Alquiler";
 import AsistenciasActividad from "../src/pages/Asistencia/Instructor/AsistenciasActividad";
+import RevisionEventos from '../src/pages/RevisionEventoss/RevisonEventos'
 // import UserView from "../src/pages/UserView/UserView"; // Descomenta si lo necesitas
 
 import "../src/styles/BotHp.css";
@@ -70,7 +71,7 @@ export default function DashBoard() {
         {contenidoActual === "planevento" && <PlanificarEvento />}
         {contenidoActual === "registro" && <RegistroA />}
         {contenidoActual === "cartacontacto" && <CartaContacto />}
-        {contenidoActual === "chromagrid" && <ChromaGrid />}
+        {contenidoActual === "revisioneventos" && <RevisionEventos />}
         {contenidoActual === "solicitudapoyoinstructor" && <Instructor/>}
         {contenidoActual === "chatai" && <ChatAI />}
         {contenidoActual === "perfil" && <HomeDash />}

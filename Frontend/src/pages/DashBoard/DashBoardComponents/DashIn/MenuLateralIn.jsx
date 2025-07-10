@@ -104,7 +104,7 @@ export default function MenuLateralIn({ menuAbierto, setContenidoActual }) {
               <button onClick={() => setContenidoActual("alquiler")} className="opciondash">
                 <FaQrcode className="iconodash" /> Registro Prestamos
               </button>
-               <button onClick={() => setContenidoActual("chromagrid")} className="opciondash">
+               <button onClick={() => setContenidoActual("revisioneventos")} className="opciondash">
                 <FaThumbsUp className="iconodash" /> Aprobados
               </button>
             </>
